@@ -8,7 +8,8 @@ When I want to change the condition of standard year, some troubles will appear.
 
 using namespace std;
 
-int main(){
+int main()
+{
     int i,m,n,q;
     int year, month, first_space, feb_days;
    
