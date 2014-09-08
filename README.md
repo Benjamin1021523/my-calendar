@@ -28,7 +28,7 @@ int main()
    
    
     if(month<=12 && month>=1){
-      for(first_space=3,q=0;q<(year-1800);q++){
+      for(first_space=5,q=0;q<(year-1700);q++){
         if(q%4==0 && q%100!=0 || q%400==100)
           first_space=(first_space+366)%7;
         else
